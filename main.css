@@ -1,3 +1,38 @@
+html body {
+    font-family: 'Merriweather', serif;
+    background: linear-gradient(#e6e2e0, #272118);
+}
+
+nav:first-of-type {
+    border-radius: 0;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #080808;
+}
+
+
 #mb {
     margin-bottom: 0;
+}
+
+.cw {
+    width: 800px;
+    margin: 50px auto;
+}
+/* Targets navbar menu links */
+ul.dropdown-menu>li>a {
+    line-height: 2.2;
+}
+
+#bgi {
+    background: url(img/dough.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0;
+}
+
+.rpp {
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+    color: #6f6f22
 }
