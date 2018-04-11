@@ -1,6 +1,6 @@
 html body {
     font-family: 'Merriweather', serif;
-    background: linear-gradient(#e6e2e0, #272118);
+    background: linear-gradient(#e6e2e0, #ffe3ba);
 }
 
 nav:first-of-type {
@@ -22,17 +22,39 @@ nav:first-of-type {
 ul.dropdown-menu>li>a {
     line-height: 2.2;
 }
+.navbar-inverse .navbar-header>a {
+    color: #ffe3ba;
+}
 
+/* Navbar Menu, Order, Abt Us */
+.navbar-nav .dropdown .dropdown-toggle {
+    color: #ffe3ba;
+}
+
+/* Main Photo */
 #bgi {
     background: url(img/dough.jpg);
     background-position: center;
     background-size: cover;
-    padding: 250px 0;
+    padding: 230px 0;
 }
-
-.rpp {
+/* Resturant Name */
+.rn {
     position: relative;
     bottom: 100px;
     left: 200px;
-    color: #6f6f22
+    color: #ffe3ba;
+    font-size: 65px;
+    font-weight: bold;
 }
+/* Catch Phrase */
+.cp {
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+    color: #ffe3ba;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
